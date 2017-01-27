@@ -51,45 +51,31 @@
             -webkit-flex-direction: column;
             flex-direction: column;
         }
-        
-        .resultPage {
-            -webkit-justify-content: center;
-            -webkit-flex-direction: column;
-            justify-content: center;
-            flex-direction: column
-        }
-        
-        #submitBtn {
-            width:50px;
-            border-radius: 5px;
-            border: 2px solid #000;
-        }
-        .answer-area{
-            margin-top:15px;
-        }  
-        .answerOp{
-            margin-bottom:10px;
-        }      
     </style>
 </head>
 
 <body>
     <div class="swiper-container">
         <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <h1 class='fadeInUp animated' id='result'></h1>
+            </div>
+
         </div>
-        <div class="swiper-pagination"></div>
     </div>
 
+    <div class="swiper-pagination"></div>
+    </div>
     <script src="./js/swiper.min.js"></script>
     <script src="./jquery.min.js"></script>
-    <script src="./js/index.js"></script>
+    <script src='./js/result.js'></script>
     <script>
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true,
         direction: 'vertical'
     });
-    </script>
+    </script>    
 </body>
 
 </html>
