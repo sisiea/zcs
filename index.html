@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>Demo</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="swiper.css" />
+  <link rel="stylesheet" href="example.css" />
+</head>
+
+<body>
+
+<div class="container">
+    <div class="swiper">
+        <div class="item">
+            <h2 class="title fadeInUp animated">心怀早茶</h2>
+        </div>
+        <div class="item">
+            <h2 class="title fadeInUp animated">哪都是家</h2>
+        </div>
+
+        <div class="item">
+            <h2 class="title fadeInUp animated">大口吃瓜</h2>
+        </div>
+
+        <div class="item">
+            <h2 class="title fadeInUp animated">新年大JB</h2>
+        </div>
+
+        <div class="item">
+            <h2 class="title fadeInUp animated" id='goto'>去答题吧</h2>
+        </div>
+    </div>
+</div>
+<script src="swiper.js"></script>
+<script src='./jquery.min.js'></script>
+<script>
+    var swiper = new Swiper();
+    $('#goto').click(function(){
+        console.log('click');
+    })
+</script>
+
+
+</body>
+
+</html>
