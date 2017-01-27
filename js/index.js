@@ -193,6 +193,7 @@ function initChosenMap(){
 }
 
 function calcScore(){
+    debugger;
     var finalscore = 0;
     for(var i = 0;i<datas.length;i++){
             if(datas[i].answer.indexOf(chosenMap[i]) != -1){

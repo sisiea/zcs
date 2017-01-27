@@ -10,9 +10,9 @@
     else if(score<20){
         scoreIndex = 1;
     }
-    else if(score<23){
+    else if(score<25){
         scoreIndex = 2;
-    }else if(score>=23){
+    }else if(score == 25){
         scoreIndex = 3;
     }
 
