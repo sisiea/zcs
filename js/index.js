@@ -49,7 +49,7 @@ function renderAnswer(answerArray){
     answerRadio = '';
     for(var i = 0;i<answerArray.length;i++){
         singleAnswer = '';
-        singleAnswer = answerBegin + 'value = "' + i +'">' +  answerArray[i] + '<br>';
+        singleAnswer = answerBegin + 'name = ' +'i' + 'value = "' + i +'">' +  answerArray[i] + '<br>';
         answerRadio = answerRadio +  singleAnswer;
     }
     return '<div class="answer-area">'+answerRadio+'</div>';
