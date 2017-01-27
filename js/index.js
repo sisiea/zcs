@@ -156,7 +156,6 @@ $('.answerOp').change(function(e){
 })
 $('#submitBtn').click(function(){
     var result = calcScore();
-    result = 15;
     window.open('https://sisiea.github.io/zcs/result.html?score='+result);
 })
 
