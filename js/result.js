@@ -12,7 +12,7 @@
     }
     else if(score<23){
         scoreIndex = 2;
-    }else if(score==23){
+    }else if(score>=23){
         scoreIndex = 3;
     }
 

@@ -27,7 +27,7 @@ var datas = [
         },
         {
             question: '瑶瑶和谁滚一样的床单',
-            options: ['老板', '和老板', '何Allen', 'Allen He'],
+            options: ['老板', '何老板', '何Allen', 'Allen He'],
             answer: '0'
         },
         {
@@ -156,7 +156,6 @@ $('.answerOp').change(function(e){
 })
 $('#submitBtn').click(function(){
     var result = calcScore();
-    debugger;
     window.open('https://sisiea.github.io/zcs/result.html?score='+result);
 })
 
