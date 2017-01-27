@@ -1,5 +1,5 @@
     var resultHeader = '支付宝口令:';
-    var result = ['早茶社新年快乐','早茶社新年djb','心怀早茶新年大吉','居然全对了'];
+    var result = ['早茶社新年快乐','早茶社新年djb','心怀早茶新年大吉','你居然全对了'];
 
     var score = parseInt(GetQueryString('score'));
     var scoreIndex;
